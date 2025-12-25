@@ -1,0 +1,39 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/vendor
+    working_dir: /app
+    tty: true
+    stdin_open: true
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+    entrypoint: ["php", "artisan"]
+
+  # Development shell for running commands
+  shell:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/vendor
+    working_dir: /app
+    tty: true
+    stdin_open: true
+    entrypoint: ["/bin/sh"]
+
+  # Run tests
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/vendor
+    working_dir: /app
+    entrypoint: ["./vendor/bin/pest"]
