@@ -6,12 +6,17 @@
     "keywords": ["laravel", "cli", "console", "artisan", "prompts", "termwind", "starter-kit"],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "laravel/framework": "^12.0",
         "laravel/prompts": "^0.3",
         "laravel/tinker": "^2.10.1",
         "nunomaduro/termwind": "^2.0",
-        "spatie/async": "^1.8"
+        "spatie/async": "^1.8",
+        "symfony/clock": "^7.0",
+        "symfony/css-selector": "^7.0",
+        "symfony/event-dispatcher": "^7.0",
+        "symfony/string": "^7.0",
+        "symfony/translation": "^7.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
