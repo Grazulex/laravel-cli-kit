@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/Grazulex/laravel-cli-kit/releases/tag/v2.0.0) (2026-10-23)
+
+### ⚠ BREAKING CHANGES
+
+- **Laravel 13**: requires Laravel 13.x, Laravel 12 is no longer supported (#6)
+
+### Changed
+
+- Update `laravel/framework` to ^13.0 and `laravel/tinker` to ^3.0 (#6)
+- Update `symfony/*` components (clock, css-selector, event-dispatcher, string, translation) to ^8.0 (#6)
+- Update `pestphp/pest` and `pestphp/pest-plugin-laravel` to ^5.0 (#6)
+
 ## [1.1.1](https://github.com/Grazulex/laravel-cli-kit/releases/tag/v1.1.1) (2026-10-23)
 
 ### Security
