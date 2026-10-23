@@ -1,9 +1,9 @@
 # Laravel CLI Kit
 
-A production-ready Laravel 12 starter kit for building beautiful and interactive command-line applications. Includes laravel/prompts, termwind, and spatie/async for modern CLI development.
+A production-ready Laravel 13 starter kit for building beautiful and interactive command-line applications. Includes laravel/prompts, termwind, and spatie/async for modern CLI development.
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-blue)](https://php.net)
-[![Laravel Version](https://img.shields.io/badge/Laravel-12.x-red)](https://laravel.com)
+[![Laravel Version](https://img.shields.io/badge/Laravel-13.x-red)](https://laravel.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ## Features
