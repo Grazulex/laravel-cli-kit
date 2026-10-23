@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1](https://github.com/Grazulex/laravel-cli-kit/releases/tag/v1.1.1) (2026-10-23)
+
+### Security
+
+- Update all Composer dependencies within existing constraints: `composer audit` now reports no advisories (was 41: laravel/framework, guzzlehttp/guzzle, league/commonmark, symfony/*…) (#4)
+
 ## [1.1.0](https://github.com/Grazulex/laravel-cli-kit/releases/tag/v1.1.0) (2026-10-08)
 
 ### Changed
